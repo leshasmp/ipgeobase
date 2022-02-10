@@ -1,6 +1,6 @@
 # Ipgeobase
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/leshasmp/ipgeobase/Lint)
+[![Lint](https://github.com/leshasmp/ipgeobase/actions/workflows/lint.yml/badge.svg)](https://github.com/leshasmp/ipgeobase/actions/workflows/lint.yml)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ipgeobase`. To experiment with that code, run `bin/console` for an interactive prompt.
 
