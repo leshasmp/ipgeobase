@@ -6,7 +6,6 @@ on:
       - master
 
   pull_request:
-      - master
 
 jobs:
   build:
