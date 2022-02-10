@@ -1,4 +1,4 @@
-[![](https://github.com/leshasmp/ipgeobase/workflows/lint/badge.svg)](https://github.com/leshasmp/ipgeobase/actions/workflows/main.yml)
+[![](https://github.com/leshasmp/ipgeobase/workflows/lint/badge.svg)](https://github.com/leshasmp/ipgeobase/actions/workflows/ruby.yml)
 
 # Ipgeobase
 
