@@ -5,23 +5,7 @@ require "test_helper"
 class IpgeobaseTest < Minitest::Test
   def setup
     @ip = '8.8.8.8'
-    @xml = '<?xml version="1.0" encoding="UTF-8"?>
-            <query>
-                <status>success</status>
-                <country>United States</country>
-                <countryCode>US</countryCode>
-                <region>VA</region>
-                <regionName>Virginia</regionName>
-                <city>Ashburn</city>
-                <zip>20149</zip>
-                <lat>39.03</lat>
-                <lon>-77.5</lon>
-                <timezone>America/New_York</timezone>
-                <isp>Google LLC</isp>
-                <org>Google Public DNS</org>
-                <as>AS15169 Google LLC</as>
-                <query>8.8.8.8</query>
-            </query>'
+    @xml = File.read('./fixtures/data.xml')
     stub_request(:get, "ip-api.com/xml/#{@ip}").to_return(body: @xml)
   end
 
